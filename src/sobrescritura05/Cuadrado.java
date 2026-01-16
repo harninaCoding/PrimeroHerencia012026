@@ -1,17 +1,10 @@
-package sobrescritura04;
+package sobrescritura05;
 
 public class Cuadrado extends Figura {
 	private int lado;
 
-	Cuadrado(int l,String color) {
+	Cuadrado(int l) {
 		this.lado = l;
-		this.setColor(color);
-	}
-
-	@Override
-	public void setColor(String color) {
-		if (color != "verde")
-			super.setColor(color);
 	}
 
 	// Getters & Setters
@@ -23,6 +16,7 @@ public class Cuadrado extends Figura {
 		this.lado = lado;
 	}
 
+	
 	@Override
 	public int getArea() {
 		return lado * lado;

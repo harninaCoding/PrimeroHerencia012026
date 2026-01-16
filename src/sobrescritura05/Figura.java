@@ -1,4 +1,4 @@
-package sobrescritura04;
+package sobrescritura05;
 
 
 public abstract class Figura {
@@ -18,6 +18,5 @@ public abstract class Figura {
 	public void setColor(String color) {
 		this.color = color;
 	}
-	
 	public abstract int getArea();
 }

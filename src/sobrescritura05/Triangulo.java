@@ -1,4 +1,4 @@
-package sobrescritura04;
+package sobrescritura05;
 
 public class Triangulo extends Figura {
 	private int base;
