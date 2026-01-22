@@ -31,7 +31,8 @@ public class PruebaBanda {
 		}
 		ArrayList<Afinable> afinables=new ArrayList<Afinable>();
 		afinables.add(guitarra);
-		afinables.add(bombo);
+		//arraylist sabe que no puedes agregar un bombo en afinables
+//		afinables.add(bombo);
 		for (Afinable afinable : afinables) {
 			afinable.afina();
 		}
